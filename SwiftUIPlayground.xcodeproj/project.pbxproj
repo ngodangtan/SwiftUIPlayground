@@ -12,6 +12,7 @@
 		D6390306260B2FB00051E80D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6390305260B2FB00051E80D /* Assets.xcassets */; };
 		D6390309260B2FB00051E80D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6390308260B2FB00051E80D /* Preview Assets.xcassets */; };
 		D6390314260B31E10051E80D /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6390313260B31E10051E80D /* DatePickerView.swift */; };
+		D658DED5260E392700425063 /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658DED4260E392700425063 /* AlertsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D6390308260B2FB00051E80D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D639030A260B2FB00051E80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6390313260B31E10051E80D /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		D658DED4260E392700425063 /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D6390300260B2FAF0051E80D /* SwiftUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				D658DED3260E391100425063 /* Alerts */,
 				D6390312260B31BF0051E80D /* DatePicker */,
 				D6390301260B2FAF0051E80D /* SwiftUIPlaygroundApp.swift */,
 				D6390303260B2FAF0051E80D /* ContentView.swift */,
@@ -78,6 +81,14 @@
 				D6390313260B31E10051E80D /* DatePickerView.swift */,
 			);
 			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		D658DED3260E391100425063 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				D658DED4260E392700425063 /* AlertsView.swift */,
+			);
+			path = Alerts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6390314260B31E10051E80D /* DatePickerView.swift in Sources */,
+				D658DED5260E392700425063 /* AlertsView.swift in Sources */,
 				D6390304260B2FAF0051E80D /* ContentView.swift in Sources */,
 				D6390302260B2FAF0051E80D /* SwiftUIPlaygroundApp.swift in Sources */,
 			);
