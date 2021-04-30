@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D60ADB61263C40F6009175DC /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60ADB60263C40F6009175DC /* GestureView.swift */; };
+		D60ADB64263C46C8009175DC /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60ADB63263C46C8009175DC /* ScrollViewReaderView.swift */; };
 		D6390302260B2FAF0051E80D /* SwiftUIPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6390301260B2FAF0051E80D /* SwiftUIPlaygroundApp.swift */; };
 		D6390304260B2FAF0051E80D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6390303260B2FAF0051E80D /* ContentView.swift */; };
 		D6390306260B2FB00051E80D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6390305260B2FB00051E80D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		D60ADB60263C40F6009175DC /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
+		D60ADB63263C46C8009175DC /* ScrollViewReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderView.swift; sourceTree = "<group>"; };
 		D63902FE260B2FAF0051E80D /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6390301260B2FAF0051E80D /* SwiftUIPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPlaygroundApp.swift; sourceTree = "<group>"; };
 		D6390303260B2FAF0051E80D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 			path = Gestures;
 			sourceTree = "<group>";
 		};
+		D60ADB62263C46B2009175DC /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				D60ADB63263C46C8009175DC /* ScrollViewReaderView.swift */,
+			);
+			path = Scroll;
+			sourceTree = "<group>";
+		};
 		D63902F5260B2FAF0051E80D = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		D6390300260B2FAF0051E80D /* SwiftUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				D60ADB62263C46B2009175DC /* Scroll */,
 				D60ADB5D263C40C3009175DC /* Gestures */,
 				D658DED3260E391100425063 /* Alerts */,
 				D6390312260B31BF0051E80D /* DatePicker */,
@@ -174,6 +185,7 @@
 				D6390314260B31E10051E80D /* DatePickerView.swift in Sources */,
 				D658DED5260E392700425063 /* AlertsView.swift in Sources */,
 				D6390304260B2FAF0051E80D /* ContentView.swift in Sources */,
+				D60ADB64263C46C8009175DC /* ScrollViewReaderView.swift in Sources */,
 				D6390302260B2FAF0051E80D /* SwiftUIPlaygroundApp.swift in Sources */,
 				D60ADB61263C40F6009175DC /* GestureView.swift in Sources */,
 			);
